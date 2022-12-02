@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "78424be314842833c04bc3bef5b72e85fff99204"
+      }
+    },
+    {
+      "identity" : "stevia",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/freshOS/Stevia",
+      "state" : {
+        "branch" : "master",
+        "revision" : "8e3220a4ca1aa1bc731d6bde5a39b40d89483b30"
+      }
+    }
+  ],
+  "version" : 2
+}
