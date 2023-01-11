@@ -7,27 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040274A22955CD9C007D0D84 /* FavouritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040274A12955CD9C007D0D84 /* FavouritesTableViewCell.swift */; };
+		04043B5D29505C0A00073BF4 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 04043B5C29505C0A00073BF4 /* SDWebImage */; };
+		04043B5F295083AB00073BF4 /* KinopoiskItemsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04043B5E295083AB00073BF4 /* KinopoiskItemsArray.swift */; };
+		041438D1294AE093004F3276 /* AppConfigurationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041438D0294AE093004F3276 /* AppConfigurationService.swift */; };
+		041438D3294AE43B004F3276 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041438D2294AE43B004F3276 /* Palette.swift */; };
+		041438D5294C4C1B004F3276 /* KinopoiskNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041438D4294C4C1B004F3276 /* KinopoiskNetworkService.swift */; };
+		041438D7294C4D69004F3276 /* KinopoiskSearchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041438D6294C4D69004F3276 /* KinopoiskSearchItem.swift */; };
+		041438D9294C51C6004F3276 /* KinipoiskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041438D8294C51C6004F3276 /* KinipoiskItem.swift */; };
+		041438DB294C60B2004F3276 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041438DA294C60B2004F3276 /* DetailVC.swift */; };
+		041438DD294C7C3F004F3276 /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041438DC294C7C3F004F3276 /* DetailCollectionViewCell.swift */; };
+		043C01A72939F0AA000FCA66 /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = 043C01A62939F0AA000FCA66 /* Stevia */; };
+		043C01AA2939F0B5000FCA66 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 043C01A92939F0B5000FCA66 /* Alamofire */; };
+		043C01AD2939F196000FCA66 /* MainItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C01AC2939F196000FCA66 /* MainItemCollectionViewCell.swift */; };
+		043C01AF293A283D000FCA66 /* ActivityIndicatorCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C01AE293A283D000FCA66 /* ActivityIndicatorCollectionView.swift */; };
+		04457168293E0F3E00E99446 /* SearchItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04457167293E0F3D00E99446 /* SearchItemViewCell.swift */; };
+		0445716A293E128E00E99446 /* SearchTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04457169293E128E00E99446 /* SearchTableVC.swift */; };
 		046032262938EA8D006F337A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046032252938EA8D006F337A /* AppDelegate.swift */; };
 		046032282938EA8D006F337A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046032272938EA8D006F337A /* SceneDelegate.swift */; };
-		0460322A2938EA8D006F337A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046032292938EA8D006F337A /* MainViewController.swift */; };
+		0460322A2938EA8D006F337A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046032292938EA8D006F337A /* MainVC.swift */; };
 		0460322F2938EA8D006F337A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0460322E2938EA8D006F337A /* Assets.xcassets */; };
 		046032322938EA8D006F337A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046032302938EA8D006F337A /* LaunchScreen.storyboard */; };
-		0460323B2938EB3B006F337A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460323A2938EB3B006F337A /* NetworkService.swift */; };
-		0460323E2938EB55006F337A /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = 0460323D2938EB55006F337A /* Stevia */; };
-		046032412938EB5E006F337A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 046032402938EB5E006F337A /* Alamofire */; };
-		046032442938EB84006F337A /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046032432938EB84006F337A /* Character.swift */; };
+		0460323B2938EB3B006F337A /* DisneyNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460323A2938EB3B006F337A /* DisneyNetworkService.swift */; };
+		046032442938EB84006F337A /* DisneyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046032432938EB84006F337A /* DisneyItem.swift */; };
+		047BBF1D29598F8D001B3A3C /* FavouritesItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BBF1B29598F8D001B3A3C /* FavouritesItem+CoreDataClass.swift */; };
+		047BBF1E29598F8D001B3A3C /* FavouritesItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BBF1C29598F8D001B3A3C /* FavouritesItem+CoreDataProperties.swift */; };
+		04926C7B2949F73D00DD4B0E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04926C7A2949F73D00DD4B0E /* TabBarController.swift */; };
+		04926C7D2949FBAC00DD4B0E /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04926C7C2949FBAC00DD4B0E /* SettingsVC.swift */; };
+		04A94E3D2948415F008A43ED /* DisneyItemsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A94E3C2948415F008A43ED /* DisneyItemsArray.swift */; };
+		04BC98E9294C8D19003867AB /* HeaderSypplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC98E8294C8D19003867AB /* HeaderSypplementaryView.swift */; };
+		04D18C8F2947934000ACFBEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D18C8E2947934000ACFBEF /* GoogleService-Info.plist */; };
+		04D18C922947956500ACFBEF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 04D18C912947956500ACFBEF /* FirebaseAnalytics */; };
+		04D18C942947956500ACFBEF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 04D18C932947956500ACFBEF /* FirebaseAuth */; };
+		04D18C962947956500ACFBEF /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 04D18C952947956500ACFBEF /* FirebaseDatabase */; };
+		04D18C982947956500ACFBEF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 04D18C972947956500ACFBEF /* FirebaseFirestore */; };
+		04D18C9A2947983F00ACFBEF /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D18C992947983F00ACFBEF /* AuthVC.swift */; };
+		04D18C9C294799F400ACFBEF /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D18C9B294799F400ACFBEF /* SignInVC.swift */; };
+		04D18C9E29479A1600ACFBEF /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D18C9D29479A1600ACFBEF /* SignUpVC.swift */; };
+		04E0A9B329544D9600F860F1 /* FavouritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0A9B229544D9600F860F1 /* FavouritesVC.swift */; };
+		04E0A9B92954649F00F860F1 /* StorageModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E0A9B72954649F00F860F1 /* StorageModel.xcdatamodeld */; };
+		04E0A9C0295571BD00F860F1 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0A9BF295571BD00F860F1 /* CoreDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040274A12955CD9C007D0D84 /* FavouritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewCell.swift; sourceTree = "<group>"; };
+		04043B5E295083AB00073BF4 /* KinopoiskItemsArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinopoiskItemsArray.swift; sourceTree = "<group>"; };
+		041438D0294AE093004F3276 /* AppConfigurationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurationService.swift; sourceTree = "<group>"; };
+		041438D2294AE43B004F3276 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		041438D4294C4C1B004F3276 /* KinopoiskNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinopoiskNetworkService.swift; sourceTree = "<group>"; };
+		041438D6294C4D69004F3276 /* KinopoiskSearchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinopoiskSearchItem.swift; sourceTree = "<group>"; };
+		041438D8294C51C6004F3276 /* KinipoiskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinipoiskItem.swift; sourceTree = "<group>"; };
+		041438DA294C60B2004F3276 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		041438DC294C7C3F004F3276 /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		043C01AC2939F196000FCA66 /* MainItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		043C01AE293A283D000FCA66 /* ActivityIndicatorCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorCollectionView.swift; sourceTree = "<group>"; };
+		04457167293E0F3D00E99446 /* SearchItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemViewCell.swift; sourceTree = "<group>"; };
+		04457169293E128E00E99446 /* SearchTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableVC.swift; sourceTree = "<group>"; };
 		046032222938EA8D006F337A /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046032252938EA8D006F337A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		046032272938EA8D006F337A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		046032292938EA8D006F337A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		046032292938EA8D006F337A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		0460322E2938EA8D006F337A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046032312938EA8D006F337A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046032332938EA8D006F337A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0460323A2938EB3B006F337A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
-		046032432938EB84006F337A /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		0460323A2938EB3B006F337A /* DisneyNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyNetworkService.swift; sourceTree = "<group>"; };
+		046032432938EB84006F337A /* DisneyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyItem.swift; sourceTree = "<group>"; };
+		047BBF1B29598F8D001B3A3C /* FavouritesItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavouritesItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		047BBF1C29598F8D001B3A3C /* FavouritesItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavouritesItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04926C7A2949F73D00DD4B0E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		04926C7C2949FBAC00DD4B0E /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		04A94E3C2948415F008A43ED /* DisneyItemsArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyItemsArray.swift; sourceTree = "<group>"; };
+		04BC98E8294C8D19003867AB /* HeaderSypplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSypplementaryView.swift; sourceTree = "<group>"; };
+		04D18C8E2947934000ACFBEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04D18C992947983F00ACFBEF /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		04D18C9B294799F400ACFBEF /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		04D18C9D29479A1600ACFBEF /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		04E0A9B229544D9600F860F1 /* FavouritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesVC.swift; sourceTree = "<group>"; };
+		04E0A9B82954649F00F860F1 /* StorageModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StorageModel.xcdatamodel; sourceTree = "<group>"; };
+		04E0A9BF295571BD00F860F1 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,14 +92,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0460323E2938EB55006F337A /* Stevia in Frameworks */,
-				046032412938EB5E006F337A /* Alamofire in Frameworks */,
+				04D18C962947956500ACFBEF /* FirebaseDatabase in Frameworks */,
+				043C01A72939F0AA000FCA66 /* Stevia in Frameworks */,
+				043C01AA2939F0B5000FCA66 /* Alamofire in Frameworks */,
+				04043B5D29505C0A00073BF4 /* SDWebImage in Frameworks */,
+				04D18C922947956500ACFBEF /* FirebaseAnalytics in Frameworks */,
+				04D18C942947956500ACFBEF /* FirebaseAuth in Frameworks */,
+				04D18C982947956500ACFBEF /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041438DE294C8CB4004F3276 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04BC98E8294C8D19003867AB /* HeaderSypplementaryView.swift */,
+				043C01AE293A283D000FCA66 /* ActivityIndicatorCollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		043C01AB2939F17F000FCA66 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				043C01AC2939F196000FCA66 /* MainItemCollectionViewCell.swift */,
+				04457167293E0F3D00E99446 /* SearchItemViewCell.swift */,
+				041438DC294C7C3F004F3276 /* DetailCollectionViewCell.swift */,
+				040274A12955CD9C007D0D84 /* FavouritesTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0450EBE62959BC4900141798 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				041438D0294AE093004F3276 /* AppConfigurationService.swift */,
+				04E0A9BF295571BD00F860F1 /* CoreDataService.swift */,
+				046032392938EB29006F337A /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0450EBE72959BC8B00141798 /* Kinopoisk */ = {
+			isa = PBXGroup;
+			children = (
+				041438D6294C4D69004F3276 /* KinopoiskSearchItem.swift */,
+				041438D8294C51C6004F3276 /* KinipoiskItem.swift */,
+				04043B5E295083AB00073BF4 /* KinopoiskItemsArray.swift */,
+			);
+			path = Kinopoisk;
+			sourceTree = "<group>";
+		};
+		0450EBE82959BCA000141798 /* Disney */ = {
+			isa = PBXGroup;
+			children = (
+				046032432938EB84006F337A /* DisneyItem.swift */,
+				04A94E3C2948415F008A43ED /* DisneyItemsArray.swift */,
+			);
+			path = Disney;
+			sourceTree = "<group>";
+		};
 		046032192938EA8C006F337A = {
 			isa = PBXGroup;
 			children = (
@@ -62,14 +173,18 @@
 		046032242938EA8D006F337A /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
-				046032422938EB71006F337A /* Model */,
-				046032392938EB29006F337A /* Networking */,
+				049E27FB293F6EFC00F01B92 /* ViewControllers */,
+				041438DE294C8CB4004F3276 /* View */,
+				043C01AB2939F17F000FCA66 /* Cell */,
+				0450EBE62959BC4900141798 /* Services */,
+				046032422938EB71006F337A /* Models */,
 				046032252938EA8D006F337A /* AppDelegate.swift */,
 				046032272938EA8D006F337A /* SceneDelegate.swift */,
-				046032292938EA8D006F337A /* MainViewController.swift */,
 				0460322E2938EA8D006F337A /* Assets.xcassets */,
 				046032302938EA8D006F337A /* LaunchScreen.storyboard */,
 				046032332938EA8D006F337A /* Info.plist */,
+				04D18C8E2947934000ACFBEF /* GoogleService-Info.plist */,
+				04E0A9B72954649F00F860F1 /* StorageModel.xcdatamodeld */,
 			);
 			path = MyProject;
 			sourceTree = "<group>";
@@ -77,17 +192,46 @@
 		046032392938EB29006F337A /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				0460323A2938EB3B006F337A /* NetworkService.swift */,
+				0460323A2938EB3B006F337A /* DisneyNetworkService.swift */,
+				041438D4294C4C1B004F3276 /* KinopoiskNetworkService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		046032422938EB71006F337A /* Model */ = {
+		046032422938EB71006F337A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				046032432938EB84006F337A /* Character.swift */,
+				0450EBE82959BCA000141798 /* Disney */,
+				0450EBE72959BC8B00141798 /* Kinopoisk */,
+				04E0A9BE2955719C00F860F1 /* Entity */,
+				041438D2294AE43B004F3276 /* Palette.swift */,
 			);
-			path = Model;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		049E27FB293F6EFC00F01B92 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				046032292938EA8D006F337A /* MainVC.swift */,
+				04457169293E128E00E99446 /* SearchTableVC.swift */,
+				04D18C992947983F00ACFBEF /* AuthVC.swift */,
+				04D18C9B294799F400ACFBEF /* SignInVC.swift */,
+				04D18C9D29479A1600ACFBEF /* SignUpVC.swift */,
+				04926C7A2949F73D00DD4B0E /* TabBarController.swift */,
+				04926C7C2949FBAC00DD4B0E /* SettingsVC.swift */,
+				041438DA294C60B2004F3276 /* DetailVC.swift */,
+				04E0A9B229544D9600F860F1 /* FavouritesVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04E0A9BE2955719C00F860F1 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				047BBF1B29598F8D001B3A3C /* FavouritesItem+CoreDataClass.swift */,
+				047BBF1C29598F8D001B3A3C /* FavouritesItem+CoreDataProperties.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,8 +251,13 @@
 			);
 			name = MyProject;
 			packageProductDependencies = (
-				0460323D2938EB55006F337A /* Stevia */,
-				046032402938EB5E006F337A /* Alamofire */,
+				043C01A62939F0AA000FCA66 /* Stevia */,
+				043C01A92939F0B5000FCA66 /* Alamofire */,
+				04D18C912947956500ACFBEF /* FirebaseAnalytics */,
+				04D18C932947956500ACFBEF /* FirebaseAuth */,
+				04D18C952947956500ACFBEF /* FirebaseDatabase */,
+				04D18C972947956500ACFBEF /* FirebaseFirestore */,
+				04043B5C29505C0A00073BF4 /* SDWebImage */,
 			);
 			productName = MyProject;
 			productReference = 046032222938EA8D006F337A /* MyProject.app */;
@@ -139,8 +288,10 @@
 			);
 			mainGroup = 046032192938EA8C006F337A;
 			packageReferences = (
-				0460323C2938EB55006F337A /* XCRemoteSwiftPackageReference "Stevia" */,
-				0460323F2938EB5E006F337A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				043C01A52939F0AA000FCA66 /* XCRemoteSwiftPackageReference "Stevia" */,
+				043C01A82939F0B5000FCA66 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				04D18C902947956500ACFBEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				04043B5B29505C0A00073BF4 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 046032232938EA8D006F337A /* Products */;
 			projectDirPath = "";
@@ -158,6 +309,7 @@
 			files = (
 				046032322938EA8D006F337A /* LaunchScreen.storyboard in Resources */,
 				0460322F2938EA8D006F337A /* Assets.xcassets in Resources */,
+				04D18C8F2947934000ACFBEF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,11 +320,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0460322A2938EA8D006F337A /* MainViewController.swift in Sources */,
+				041438D3294AE43B004F3276 /* Palette.swift in Sources */,
+				04D18C9A2947983F00ACFBEF /* AuthVC.swift in Sources */,
+				0460322A2938EA8D006F337A /* MainVC.swift in Sources */,
+				047BBF1D29598F8D001B3A3C /* FavouritesItem+CoreDataClass.swift in Sources */,
 				046032262938EA8D006F337A /* AppDelegate.swift in Sources */,
-				046032442938EB84006F337A /* Character.swift in Sources */,
-				0460323B2938EB3B006F337A /* NetworkService.swift in Sources */,
+				043C01AD2939F196000FCA66 /* MainItemCollectionViewCell.swift in Sources */,
+				04D18C9E29479A1600ACFBEF /* SignUpVC.swift in Sources */,
+				04E0A9B329544D9600F860F1 /* FavouritesVC.swift in Sources */,
+				04D18C9C294799F400ACFBEF /* SignInVC.swift in Sources */,
+				0445716A293E128E00E99446 /* SearchTableVC.swift in Sources */,
+				04E0A9B92954649F00F860F1 /* StorageModel.xcdatamodeld in Sources */,
+				046032442938EB84006F337A /* DisneyItem.swift in Sources */,
+				04BC98E9294C8D19003867AB /* HeaderSypplementaryView.swift in Sources */,
+				043C01AF293A283D000FCA66 /* ActivityIndicatorCollectionView.swift in Sources */,
+				0460323B2938EB3B006F337A /* DisneyNetworkService.swift in Sources */,
+				041438DD294C7C3F004F3276 /* DetailCollectionViewCell.swift in Sources */,
+				041438D1294AE093004F3276 /* AppConfigurationService.swift in Sources */,
+				041438D5294C4C1B004F3276 /* KinopoiskNetworkService.swift in Sources */,
+				04A94E3D2948415F008A43ED /* DisneyItemsArray.swift in Sources */,
+				041438D9294C51C6004F3276 /* KinipoiskItem.swift in Sources */,
+				04926C7B2949F73D00DD4B0E /* TabBarController.swift in Sources */,
 				046032282938EA8D006F337A /* SceneDelegate.swift in Sources */,
+				04457168293E0F3E00E99446 /* SearchItemViewCell.swift in Sources */,
+				04043B5F295083AB00073BF4 /* KinopoiskItemsArray.swift in Sources */,
+				040274A22955CD9C007D0D84 /* FavouritesTableViewCell.swift in Sources */,
+				04E0A9C0295571BD00F860F1 /* CoreDataService.swift in Sources */,
+				047BBF1E29598F8D001B3A3C /* FavouritesItem+CoreDataProperties.swift in Sources */,
+				041438D7294C4D69004F3276 /* KinopoiskSearchItem.swift in Sources */,
+				04926C7D2949FBAC00DD4B0E /* SettingsVC.swift in Sources */,
+				041438DB294C60B2004F3276 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +525,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = none.MyProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testProject.MyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -380,7 +557,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0460323C2938EB55006F337A /* XCRemoteSwiftPackageReference "Stevia" */ = {
+		04043B5B29505C0A00073BF4 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		043C01A52939F0AA000FCA66 /* XCRemoteSwiftPackageReference "Stevia" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/freshOS/Stevia";
 			requirement = {
@@ -388,7 +573,7 @@
 				kind = branch;
 			};
 		};
-		0460323F2938EB5E006F337A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		043C01A82939F0B5000FCA66 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -396,20 +581,66 @@
 				kind = branch;
 			};
 		};
+		04D18C902947956500ACFBEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0460323D2938EB55006F337A /* Stevia */ = {
+		04043B5C29505C0A00073BF4 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0460323C2938EB55006F337A /* XCRemoteSwiftPackageReference "Stevia" */;
+			package = 04043B5B29505C0A00073BF4 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		043C01A62939F0AA000FCA66 /* Stevia */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043C01A52939F0AA000FCA66 /* XCRemoteSwiftPackageReference "Stevia" */;
 			productName = Stevia;
 		};
-		046032402938EB5E006F337A /* Alamofire */ = {
+		043C01A92939F0B5000FCA66 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0460323F2938EB5E006F337A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 043C01A82939F0B5000FCA66 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
+		04D18C912947956500ACFBEF /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04D18C902947956500ACFBEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		04D18C932947956500ACFBEF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04D18C902947956500ACFBEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		04D18C952947956500ACFBEF /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04D18C902947956500ACFBEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		04D18C972947956500ACFBEF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04D18C902947956500ACFBEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		04E0A9B72954649F00F860F1 /* StorageModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04E0A9B82954649F00F860F1 /* StorageModel.xcdatamodel */,
+			);
+			currentVersion = 04E0A9B82954649F00F860F1 /* StorageModel.xcdatamodel */;
+			path = StorageModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0460321A2938EA8C006F337A /* Project object */;
 }
