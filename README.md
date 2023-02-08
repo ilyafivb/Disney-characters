@@ -4,7 +4,7 @@
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-01-30 at 16 19 46](https://user-images.githubusercontent.com/94123749/215679044-1e0f7ead-664d-4373-bae0-37b8ec28c2c6.png)
 При нажатии на нужного персонажа происходит переход на экран детального обзора, в котором показаны фильмы, тв шоу, сериалы (если они есть).
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-01-30 at 16 21 42](https://user-images.githubusercontent.com/94123749/215679152-89260994-acd6-48e6-802b-b5c92157dde3.png)
-Отображение всех фильмов, сериалов или тв шоу реализовано с помощью GCD Group. Вся вкладка будет отображена после загрузки всех изображений.
+Отображение всех фильмов, сериалов или тв шоу реализовано с помощью Dispatch Group. Вся вкладка будет отображена после загрузки всех изображений.
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-01-30 at 16 21 53](https://user-images.githubusercontent.com/94123749/215679179-fcc6fb0c-4905-4423-9e14-4f37a5687bf9.png)
 Если нажать на нужный Вам фильм, то откроется страница выбранного фильма на сайте Кинопоиска.
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-01-31 at 10 58 16](https://user-images.githubusercontent.com/94123749/215679224-071bdb96-0467-4982-8f3a-cb3620ead440.png)
